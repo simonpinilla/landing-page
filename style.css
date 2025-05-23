@@ -10,12 +10,12 @@ body{
 
 .header{
     display: flex;
-    justify-content:  space-around;
+    justify-content:  space-between;
     background-color: #1f2937;
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
-    padding: 10px ;
+    padding: 15px 330px ;
 
 }
 .header a{
@@ -23,8 +23,9 @@ body{
     color: #E5E7EB;
     text-decoration: none;
 }
-.link{
-    gap: 5px;
+.links{
+    display: flex;
+    gap: 15px;
 }
 .container{
     display: flex;
@@ -46,12 +47,22 @@ body{
     color: #f9faf8;
     font-weight: 900;
     margin: 0;
+    
+}
+.card a{
+    background-color: #3882f6;
+    text-decoration: none;
+    color: #f9faf8;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-top: 25px;
 }
 .parra-uno{
     color: #E5E7EB;
     font-size: 18px;
     padding: 0;
     margin: 0;
+    margin-bottom: 10px;
 }
 .card{
     justify-content: center;
